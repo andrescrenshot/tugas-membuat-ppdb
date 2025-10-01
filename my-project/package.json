@@ -1,5 +1,5 @@
 {
-  "name": "tugas-ppdb",
+  "name": "my-project",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,15 +10,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@tailwindcss/vite": "^4.1.13",
-    "axios": "^1.12.2",
-    "bootstrap": "^5.3.8",
     "react": "^19.1.1",
-    "react-bootstrap": "^2.10.10",
-    "react-dom": "^19.1.1",
-    "react-router-dom": "^6.30.1",
-    "sweetalert2": "^11.23.0",
-    "tailwindcss": "^4.1.13"
+    "react-dom": "^19.1.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.36.0",
