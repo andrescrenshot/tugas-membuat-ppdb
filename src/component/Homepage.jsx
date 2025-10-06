@@ -6,6 +6,8 @@ import tkj from "../../public/tkj.jpg";
 import tsm from "../../public/tsm.jpg";
 import akl from "../../public/akl.jpg";
 import tatab from "../../public/tb.jpg";
+import Logobundar from "../../public/Logobundar.jpg";
+import gitar from "../../public/gitar.jpg"
 
 const Homepage = () => {
   const [show, setShow] = useState(false);
@@ -29,13 +31,21 @@ const Homepage = () => {
 
   let scrollActive = scroll ? "py-6 bg-white shadow" : "py-4";
   return (
-    <div className={`Navbar w-full transition-all bg-black ${scrollActive}` } style={{ backgroundImage: 
-    "url('https://i.pinimg.com/736x/34/ae/b3/34aeb36d61ed683fe5b395378cfc4014.jpg')" }}>
-      
+    <div
+      className={`Navbar w-full transition-all bg-black ${scrollActive}`}
+      style={{
+        backgroundImage:
+          "url('https://i.pinimg.com/736x/34/ae/b3/34aeb36d61ed683fe5b395378cfc4014.jpg')",
+      }}
+    >
       <div className="mx-auto px-4 shadow bg-sky-300">
         <div className="navbar-box flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <img src={Logo} alt="Logo" className="w-13 h-13 object-contain" />
+            <img
+              src={Logo}
+              alt="Logo"
+              className="w-13 h-13 object-contain rounded-full"
+            />
             <div>
               <h1 className="sm:text-2xl text-xl text-2xl font-bold ">
                 SMK BINA NUSANTARA
@@ -83,9 +93,23 @@ const Homepage = () => {
             </Link>
           </div>
         </div>
-          <div className="text-white shadow-sm">
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero ut non odit, quas</p>
-          </div>
+        <div className="absolute left-0 mt-30 text-white shadow-sm border bg-white w-90 h-80 rounded-lg mx-20 flex flex-col items-center justify-center">
+          <img
+            src={Logobundar}
+            alt=""
+            className="rounded-full w-30 h-30 mb-20"
+          />
+          <p className="text-black text-center ">Lorem, ipsum dolor sit amet</p>
+        </div>
+
+        <div className="absolute right-0 mt-30 text-white shadow-sm border bg-white w-90 h-80 rounded-lg mx-20">
+          <img 
+          src={gitar} 
+          alt="" 
+          className="w-80 h-80"/>
+          <p></p>
+        </div>
+        <h1 className="text-white text-bold text-4xl mt-3">Syarat Pendaftaran</h1>
         <div className="py-10 px-10 h-90">
           <p className=" bg-gray-300 shadow-lg p-10 rounded-2xl">
             Mengisi formulir pendaftaran secara online/offline.
