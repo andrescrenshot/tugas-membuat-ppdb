@@ -7,7 +7,7 @@ import tsm from "../../public/tsm.jpg";
 import akl from "../../public/akl.jpg";
 import tatab from "../../public/tb.jpg";
 import Logobundar from "../../public/Logobundar.jpg";
-import gitar from "../../public/gitar.jpg"
+import logosok from "../../public/Logo.jpg"
 
 const Homepage = () => {
   const [show, setShow] = useState(false);
@@ -104,7 +104,7 @@ const Homepage = () => {
 
         <div className="absolute right-0 mt-30 text-white shadow-sm border bg-white w-90 h-80 rounded-lg mx-20">
           <img 
-          src={gitar} 
+          src={logosok} 
           alt="" 
           className="w-80 h-80"/>
           <p></p>

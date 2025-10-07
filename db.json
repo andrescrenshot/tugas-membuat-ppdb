@@ -1,0 +1,36 @@
+{
+  "menu1": [
+    {
+      "id": "dfaf",
+      "nama_lengkap": "moreno gacor",
+      "asal_sekolah": "stm kapal karam",
+      "nomor_induk": "337490",
+      "Rata_nilai": "30",
+      "rata_nilai": "80"
+    },
+    {
+      "id": "35d2",
+      "nama_lengkap": "fadil lele",
+      "asal_sekolah": "lele",
+      "nomor_induk": "844221",
+      "Rata_nilai": "100",
+      "rata_nilai": "323"
+    },
+    {
+      "id": "0419",
+      "nama_lengkap": "ayas ",
+      "asal_sekolah": "Liyue",
+      "nomor_induk": "2321434",
+      "Rata_nilai": "100000",
+      "rata_nilai": "333"
+    },
+    {
+      "id": "950b",
+      "nama_lengkap": "daren",
+      "asal_sekolah": "black sgcholl",
+      "nomor_induk": "8797",
+      "Rata_Nilai": "900",
+      "rata_nilai": "70"
+    }
+  ]
+}

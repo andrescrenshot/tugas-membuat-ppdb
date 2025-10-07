@@ -23,7 +23,7 @@ function Login() {
   icon: "success",
   draggable: true
 }).then(()=>{
-   navigate("/Q");
+   navigate("/T");
 })
   
 
@@ -70,7 +70,7 @@ function Login() {
               <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="submit">
                 Daftar
               </button>
-              <Link to="/Q" className="inline-block align-baseline text-black opacity-50 font-bold text-sm text-shadow-blue-500 hover:text-blue-800">
+              <Link to="/T" className="inline-block align-baseline text-black opacity-50 font-bold text-sm text-shadow-blue-500 hover:text-blue-800">
             Belum punya akun?
               </Link>
             </div>

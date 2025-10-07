@@ -13,10 +13,10 @@ function Sidnav() {
                     <div className="text-xl font-bold mb-8 text-center">Binus</div>
 
                     <nav className="space-y-3">
+                        <a href="/T" className="block py-2 px-3 rounded hover:bg-blue-600">Dasboard Siswa</a>
                         <a href="/D" className="block py-2 px-3 rounded hover:bg-blue-600">Menu1</a>
                         <a href="/" className="block py-2 px-3 rounded hover:bg-blue-600">Menu2</a>
                         <a href="/" className="block py-2 px-3 rounded hover:bg-blue-600">Menu3</a>
-                        <a href="propil" className="block py-2 px-3 rounded hover:bg-blue-600 mt-110">profile</a>
                     </nav>
 
                     <div className=""></div>
