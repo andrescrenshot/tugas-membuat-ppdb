@@ -1,20 +1,12 @@
 {
   "menu1": [
     {
-      "id": "dfaf",
-      "nama_lengkap": "moreno gacor",
-      "asal_sekolah": "stm kapal karam",
-      "nomor_induk": "337490",
-      "Rata_nilai": "30",
-      "rata_nilai": "80"
-    },
-    {
       "id": "35d2",
       "nama_lengkap": "fadil lele",
       "asal_sekolah": "lele",
       "nomor_induk": "844221",
       "Rata_nilai": "100",
-      "rata_nilai": "323"
+      "rata_nilai": "32"
     },
     {
       "id": "0419",
@@ -25,12 +17,51 @@
       "rata_nilai": "333"
     },
     {
-      "id": "950b",
+      "id": "4a6a",
+      "nama_lengkap": "dimas",
+      "tempat_tanggal": "ngawis 1960 desember 19",
+      "nomor_induk": "192683",
+      "nomor_is": "186323",
+      "alamat_lengkap": "ngawis rt5 rw6",
+      "rata_nilai": "-75",
+      "asal_sekolah": "stm kapal karam"
+    }
+  ],
+  "siswa": [
+    {
+      "id": "1",
+      "nama_lengkap": "Moretam",
+      "asal_sekolah": "SMP Negeri 1 Bandung",
+      "nomor_induk": "1234567890",
+      "Rata_Nilai": "90",
+      "Jalur_Prestasi": "jalur prestasi"
+    },
+    {
+      "id": "2",
+      "nama_lengkap": "Kudil",
+      "asal_sekolah": "SMP Negeri 4 Jakarta",
+      "nomor_induk": "0987654321",
+      "Rata_Nilai": "-91",
+      "Jalur_Prestasi": "jalur hoki"
+    },
+    {
+      "id": "c9b8",
+      "nama_lengkap": "moreno",
+      "asal_sekolah": "mts",
+      "nomor_induk": "223",
+      "Rata_Nilai": "20",
+      "Jalur_Prestasi": "Jalur prestasi"
+    }
+  ],
+  "menu2": [
+    {
+      "id": "937f",
       "nama_lengkap": "daren",
-      "asal_sekolah": "black sgcholl",
-      "nomor_induk": "8797",
-      "Rata_Nilai": "900",
-      "rata_nilai": "70"
+      "tempat_tanggal": "ngawis 1960 desember 19",
+      "nomor_induk": "337490",
+      "nomor_is": "186323",
+      "alamat_lengkap": "ngawis rt5 rw6",
+      "rata_nilai": "123"
     }
   ]
 }

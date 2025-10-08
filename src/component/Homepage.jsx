@@ -9,6 +9,7 @@ import tatab from "../../public/tb.jpg";
 import Logobundar from "../../public/Logobundar.jpg";
 import logosok from "../../public/Logo.jpg"
 
+
 const Homepage = () => {
   const [show, setShow] = useState(false);
   const [scroll, setScroll] = useState(false);
@@ -55,7 +56,7 @@ const Homepage = () => {
 
           <div className="social flex items-center gap-2">
             <a
-              href=""
+              href="https://www.instagram.com/accounts/login/?source=auth_switcher&next=%2Fsmkbinanusantara_smg%2F"
               className="bg-sky-400 px-5 py-2 rounded-full text-white font-bold hover:bg-sky-500 transition-all"
             >
               Social Media
@@ -130,46 +131,44 @@ const Homepage = () => {
             menambahkan).
           </p>
         </div>
-        <div className="services box pt-12 grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-6">
-          <div className="box bg-gray-400 rounded shadow p-4 mx-auto">
-            <img src={tkj} alt="" />
-            <i className="ri-number-1 text-white text-3xl"></i>
-            <h3 className="text-xl font-bold text-white mt-6 mb-2">TKJ</h3>
-            <p className="text-white text-base/loose">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae
-              corporis delectus modi aliquid. Quam, ipsum.
-            </p>
-          </div>
-          <div className="box bg-gray-400 rounded shadow p-4">
-            <img src={tsm} alt="" />
-            <i className="ri-number-2 text-white text-3xl"></i>
-            <h3 className="text-xl font-bold text-white mt-6 mb-2">TSM</h3>
-            <p className="text-white text-base/loose">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae
-              corporis delectus modi aliquid. Quam, ipsum.
-            </p>
-          </div>
-          <div className="box bg-gray-400 rounded shadow p-4">
-            <img src={akl} alt="" />
-            <i className="ri-number-3 text-white text-3xl"></i>
-            <h3 className="text-xl font-bold text-white mt-6 mb-2">AKUTANSI</h3>
-            <p className="text-white text-base/loose">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae
-              corporis delectus modi aliquid. Quam, ipsum.
-            </p>
-          </div>
-          <div className="box bg-gray-400 rounded shadow p-4 md:col-start-2">
-            <img src={tatab} alt="" className="" />
-            <i className="ri-number-3 text-white text-3xl"></i>
-            <h3 className="text-xl font-bold text-white mt-6 mb-2">
-              TATA BUASANA
-            </h3>
-            <p className="text-white text-base/loose">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae
-              corporis delectus modi aliquid. Quam, ipsum.
-            </p>
-          </div>
-        </div>
+<div className="services box pt-12 grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-6">
+  <div className="box bg-gray-400 rounded shadow p-4 mx-auto lg:col-span-3">
+    <img src={tkj} alt="" />
+    <i className="ri-number-1 text-white text-3xl"></i>
+    <h3 className="text-xl font-bold text-white mt-6 mb-2">TKJ</h3>
+    <p className="text-white text-base/loose">
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae corporis delectus modi aliquid. Quam, ipsum.
+    </p>
+  </div>
+
+  <div className="box bg-gray-400 rounded shadow p-4">
+    <img src={tsm} alt="" />
+    <i className="ri-number-2 text-white text-3xl"></i>
+    <h3 className="text-xl font-bold text-white mt-6 mb-2">TSM</h3>
+    <p className="text-white text-base/loose">
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae corporis delectus modi aliquid. Quam, ipsum.
+    </p>
+  </div>
+
+  <div className="box bg-gray-400 rounded shadow p-4">
+    <img src={akl} alt="" />
+    <i className="ri-number-3 text-white text-3xl"></i>
+    <h3 className="text-xl font-bold text-white mt-6 mb-2">AKUTANSI</h3>
+    <p className="text-white text-base/loose">
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae corporis delectus modi aliquid. Quam, ipsum.
+    </p>
+  </div>
+
+  <div className="box bg-gray-400 rounded shadow p-4">
+    <img src={tatab} alt="" />
+    <i className="ri-number-3 text-white text-3xl"></i>
+    <h3 className="text-xl font-bold text-white mt-6 mb-2">TATA BUASANA</h3>
+    <p className="text-white text-base/loose">
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae corporis delectus modi aliquid. Quam, ipsum.
+    </p>
+  </div>
+</div>
+
       </div>
     </div>
   );
